@@ -12,7 +12,7 @@ dependencies:
   okra_widget: ^0.0.1
 ```
 
-On iOS, opt-in to the embedded views preview by adding a boolean property to the app's Info.plist file with the key     `io.flutter.embedded_views_preview` and the value `true`.
+On iOS, opt-in to the embedded views preview by adding a boolean property to the app's Info.plist file with the key `io.flutter.embedded_views_preview` and the value `true`.
 
 ```plist
 <dict>  

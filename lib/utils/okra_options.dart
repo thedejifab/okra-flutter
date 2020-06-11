@@ -41,6 +41,7 @@ class OkraOptions {
   String success_message;
   Filter filter;
 
+  /// Creates an options object that can be used in performing transactions
   OkraOptions({
     bool isWebview = true,
     @required String key,
@@ -76,12 +77,12 @@ class OkraOptions {
       'logo': logo,
       'source': source,
       'widget_success': widget_success,
-      'widget_failed' : widget_failed,
+      'widget_failed': widget_failed,
       'currency': currency,
       'exp': exp,
       'success_title': success_title,
       'success_message': success_message,
-      'filter' : filter.toJson()
+      'filter': filter.toJson()
     };
   }
 
