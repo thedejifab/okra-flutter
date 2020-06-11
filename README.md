@@ -3,13 +3,13 @@
 This is an flutter library for implementing okra widget
 
 ### Getting Started
-This library would help you add Okra widget to your hybrid android/ios application in no time. All you need to do is ...
+This library would help you add Okra widget to your hybrid Android/iOS application in no time. All you need to do is ...
 
 ### Install
 To use this plugin, add `okra_widget` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 ```pub
 dependencies:
-  okra_widget: ^0.0.1
+  okra_widget: ^0.0.2
 ```
 
 On iOS, opt-in to the embedded views preview by adding a boolean property to the app's Info.plist file with the key `io.flutter.embedded_views_preview` and the value `true`.
