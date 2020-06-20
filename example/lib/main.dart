@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:okra_widget/okra_widget.dart';
 
+import 'keys.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -27,7 +29,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -67,12 +68,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   ];
 
                   OkraOptions options = OkraOptions(
-                      isWebview: true,
-                      key: "101ee499-beed-53ef-b9e4-1846790792a5",
-                      token: "5d8a35224d8113507c7521ac",
-                      products: [Product.auth, Product.balance],
-                      environment: "sandbox",
-                      clientName: "Bassey");
+                    isWebview: true,
+                    key: SANDBOX_PUBLIC_KEY,
+                    token: TOKEN,
+                    products: [Product.auth, Product.balance],
+                    environment: "sandbox",
+                    clientName: "Bassey",
+                  );
 
                   options.guarantors = Guarantor(true, "", 2);
                   options.filter = Filter("all", banks);

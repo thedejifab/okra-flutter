@@ -73,3 +73,4 @@ build/
 example/.flutter-plugins-dependencies
 example/pubspec.lock
 pubspec.lock
+example/lib/keys.dart
