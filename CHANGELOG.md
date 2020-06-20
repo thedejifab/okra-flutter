@@ -1,6 +1,8 @@
-## [0.0.2]
-* Fix webview rendering issues on iOS
-* Update documentation
+0.0.2
+  - Fixed webview bug on iOS
+  - Added Guarantors and Filters Object
+  - Added callback to listen to response from the widget
 
-## [0.0.1] - TODO: Add release date.
-* TODO: Describe initial release.
+
+0.0.1
+  - Add release date.
