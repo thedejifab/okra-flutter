@@ -6,6 +6,7 @@ import 'utils/okra_options.dart';
 import 'view/web.dart';
 
 class Okra {
+  /// Returns [OkraHandler] detailing status of the transaction
   static Future<OkraHandler> create(
       BuildContext context, OkraOptions okraOptions) async {
     String uuid = await Helper.getDeviceUUID();

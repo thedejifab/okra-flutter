@@ -44,8 +44,8 @@ class _WebState extends State<Web> {
           JavascriptChannel(
               name: 'FlutterOnClose',
               onMessageReceived: (JavascriptMessage message) {
-                Navigator.pop(context,
-                    new OkraHandler(true, false, false, message.message));
+                Navigator.pop(
+                    context, OkraHandler(true, false, false, message.message));
               })
         ]),
         onWebViewCreated: (webViewController) {
